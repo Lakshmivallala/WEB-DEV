@@ -5,39 +5,55 @@ reactjs documentary
 [For more markdown syntaxes](https://guides.github.com/features/mastering-markdown/)
 
 What is Web Design ?
+
          Creating  a website(Static or Dynamic) based on requirement is known as Web Design.
+         
 What is Web Development ?
+
            Maintaining the website is known as Web Development(able to perform all DataBase operations).
+           
 Software Requirements for our project :
+
                                         1. Text Editor (Sublime Text, Visual studio)
                                         2. Git and Github
                                         3. Chrome
                                         4. Nodejs software
+                                        
 Importance of Git and Github in our project:
+
                 Github is an distributed version control system which maintains the versions of our project.
+                
 Advantages of Github :
+
                           1. We are able to deploy our project, whenever we want able to get back to previous code by using snapshots
                           2. We can also contribute with other's project 
                           3. open source and also works as social network
+                          
 To create a Github Account Official url for Github
 
 What is Git ?
+
               Git is a tool which manages the snapshots of or project and able to handle small or very large projects effictvely
 Github uses tool Git to manage the snapshots of the project
 
 Installation of Git tool official website for Git tool
+
 Create a Empty Repository in Github :
+
                                         1. To create a repository at top-right there is a "+"  dropdown button select that button
                                         2. Select "New Repository" option
                                         3. Name your repository (Repository name should be unique)
                                         4. Make your repository as public (Anyone on the internet are able to see your repository)
                                         5. Initialize your repository with readme file (readme file is completely used for documentation)
                                         6. select option "create repository"
+                                        
 Readme.md file importance:
 
                         Readme.md file is used for documentation in Github repository by using Markdown syntax
+                        
 Documentation in Markdown format official url for Mastering Markdown
 Commands in gitBash :
+
 git config --global user.name "username" : This command is used to configure our username into git tool
 
 git config --global user.mail "mailid" : This command is used to configure our mailid into git tool
@@ -49,14 +65,19 @@ cd Desktop : This command is used to change our directory to DESKTOP.
 git init : This command will initialize a git repository
 
 Cloning a Repository from Github Account to local system :
+
                                                              1. We have to clone(copy) our repository to local system where we are going to perform our necessary operations to our project
                                                              2. Cloning a repository will create a folder in localsystem with same name of repository.
+                                                             
 How to clone a Repository :
+
                                 1. open the repository and then select clone option
                                 2. Copy the url
                                 3. open the gitbash
                                 4. check the path again if you are not in DESKTOP change your path to DESKTOP.
+                                
 Commands to clone a repository using gitBash
+
 git clone paste the url : This commands clone a repository from github and creates a folder in our local system.
 
 ls : This command is used to display the list of files.
@@ -91,19 +112,26 @@ git pull origin master : This command is used to pull the repository in Github.
 git push origin master : This command is used to push the chnages from localfolder to Github Repository.
 
 Day 03:
+
 Introduction to Html5:
+
                      Html5 stands for Hyper Text MarkUp language used to create web pages and the version is 5.
                      Generally web page is divided into 3 parts:
+                     
                                    1. Head part(title,Navigation,Meta)
                                    2. Body part(content)
                                    3. Foot part
+                                   
                      Html5 uses series of elements to display the content,these elements are enclosed with tags.
                      SYNTAX: <STARTTAG> Content </ENDTAG>
+                     
 Different types of Elements in Html5:
+
                                       1. Block-level Element 
                                           1.1 All heading tags(h1 to h6)
                                           1.2. paragraph tags(p)
                                           1.3. All Semantic Elements
+                                          
                                       2. Inline Elements
                                           1.1. span tag
                                           1.2. All navigation Elements
@@ -115,6 +143,7 @@ Different types of Elements in Html5:
                                          1.2. Outbound Navigation(able to navigate to content present in another file)
                                          1.3. mailto(used to send a mail)
                                          1.4. tel(able to call particular person)
+                                         
                                       4. Semantic Elements:
                                       Semantic Elements are similar to <div> tags but it contains some description.
                                          1.1. section
@@ -123,12 +152,17 @@ Different types of Elements in Html5:
                                          1.4. nav
                                          1.5. header
                                          1.6. footer
+                                         
 CSS (Cascading Style Sheets) : Add Beautification to our web page
-Syntax: Selector{Property: value;}
+Syntax:
+
+Selector{Property: value;}
 
 Selector is used to select a tag where we want to apply styles.
 
-Types of Selectors:(All selectors use style attribute in the head part)
+Types of Selectors:
+(All selectors use style attribute in the head part)
+
                     1. Universal Selector(*): By using Universal selector we are able to apply styles to the entire body part.
                     
                     2. Identifier Selector(#): To use identifier Selector we have to mention a id with name in the tag,identifiers are unique.
