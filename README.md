@@ -49,6 +49,7 @@ Create a Empty Repository in Github :
                                         
 Readme.md file importance:
 
+
                         Readme.md file is used for documentation in Github repository by using Markdown syntax
                         
 Documentation in Markdown format official url for Mastering Markdown
@@ -161,6 +162,7 @@ Selector{Property: value;}
 Selector is used to select a tag where we want to apply styles.
 
 Types of Selectors:
+
 (All selectors use style attribute in the head part)
 
                     1. Universal Selector(*): By using Universal selector we are able to apply styles to the entire body part.
@@ -172,9 +174,67 @@ Types of Selectors:
                     5. child combiner : Child combiner and Descendant Selector are same but different in the syntax only
                         .parent #child(h2)
 Types of css:
+
                  1. Inline css : Inline css is used to apply style within a tag (without using any selector)
                  2. Internal css : Internal css is nothing but we are able to apply styles within a page.
                  3. External css 
                  
 JAVASCRIPT:
-For dynamic behaviour of a website
+
+         1. For dynamic behaviour of a website
+         2. Called live script initially (ECMA script also, named after a European company ECMA)
+         3. It is an inerpreter based language
+         4. For the implementation of high end javascript modules, we need to focus on `ES-6`      
+         
+         DATA TYPES:
+         
+                  1. Number
+                  2. String
+                  3. Boolean
+                  4. Function
+                  5. Object
+                  6. 
+                  
+         >var d=1+2+"3"
+         <undefined
+         
+         >d
+         <"33"
+         
+         >typeof(d)
+         <"string"
+         
+         >var e=[1,2,3,4]
+         typeof(e)
+         <"object"
+         
+         >var fa=false;
+         typeof(f)
+         <"boolean"
+         
+         >var g=function()
+         {};
+         typeof(g)
+         <"function"
+         
+         >var h=/()/;
+         typeof(h)
+         <"object"
+         
+         >z=1
+         typeof(z)
+         <"number"
+         
+         >var u
+         u
+         <undefined
+         
+         >typeof(u)
+         <"undefined"
+         
+         >var v=null;
+         v
+         <null
+         
+         >typeof(v)
+         <"object"
