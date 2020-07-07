@@ -287,14 +287,15 @@ Convertion functions
 Alerts in JavaScript
 
 alert()
-
-    ```javascript
+```js script
     alert("Hi");
-    ```
+ ```
+  
+
     
 prompt()
 
-    ```javascript
+```javascript
     prompt("Enter your name");
     ```
 confirm()
