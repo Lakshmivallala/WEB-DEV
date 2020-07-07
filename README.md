@@ -236,5 +236,45 @@ JAVASCRIPT:
          v
          <null
          
-         >typeof(v)
-         <"object"
+         > typeof(v) //null value is treated as an object
+         < "object" 
+         
+         >var array=["Mark zed","Jack dfk","Tim","Jack Ma"];
+         for(i=0;i<array.length;i++){
+         console.log(array[i])
+         }
+         <Mark zed
+         Jack dfk
+         Tim
+         Jack Ma
+         undefined
+         
+         >function add(){
+         var a=2;
+         var b=3;
+         console.log(a+b)
+         }
+         >add()
+         <5
+         
+         >function subtraction(x,y){
+         return x-y;
+         }
+         subtraction(5,3)  
+         <2
+         
+         >num1=prompt("Enter value 1")
+         num2=prompt("Enter value 2")
+         typeof(num1)
+         typeof(num2)
+         console.log(Number(num1)+Number(num2))
+         <9.5
+         
+         >num3=prompt("Enter the number")
+         console.log(parseInt(num3)) //If you give an input pf 3.54, you will still get the output as 3
+         <3 
+         
+         >num4=prompt("Enter")
+         console.log(parseFloat(num4))
+         <3.45 
+
