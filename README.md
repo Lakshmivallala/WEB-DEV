@@ -195,14 +195,11 @@ JAVASCRIPT:
                   5. Object
                   6. 
                   
-         ``` javascript
-         var d=1+2+"3"
-         >undefined
-         ```
+
 ```js script
     var d=1+2+"3"
-    >undefined
  ```
+>undefined
  
          >d
          <"33"
