@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::BOOTSTRAP TABLES::</title>
+	<meta name="viewport" content="width=device-width" initial-scale=1.0>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- <style type="text/css">
+	.non{
+		margin-top:50%;
+	}
+	/*table{
+		margin-top: 50px;
+	}*/
+</style> -->
+
+</head>
+<body>
+	<div class="container table-responsive mt-5">
+	<!-- If you don't apply container, the table will occupy the entire width of the device -->
+	<!-- <center> -->
+	<!-- <table border="2"> -->
+	<table class="table table-bordered table-striped table-hover text-center">
+		<!-- <caption>Table concept in bootstrap!</caption> -->
+		<thead class="thead-dark bg-warning">
+		<tr>
+			<th>Sno</th>
+			<th>Continent</th>
+			<th>FirsName</th>
+			<th>LastName</th>
+			<th>Age</th>
+			<th colspan="2"">Actions</th>
+		</tr>
+	</thead>
+	<tbody class="bg-info text-center">
+		<tr class="bg-success">
+			<td>1</td>
+			<td rowspan="3" class="non">Non Asia</td>
+			<td>oph</td>
+			<td>Zz</td>
+			<td>20</td>
+			<td>Edit</td>
+			<td>Delete</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Sometding</td>
+			<td>Nothing</td>
+			<td>21</td>
+			<td>Edit</td>
+			<td>Delete</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>John</td>
+			<td>Phillips</td>
+			<td>22</td>
+			<td>Edit</td>
+			<td>Delete</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td rowspan="2">Asia</td>
+			<td>John</td>
+			<td>Phillips</td>
+			<td>22</td>
+			<td>Edit</td>
+			<td>Delete</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>John</td>
+			<td>Phillips</td>
+			<td>22</td>
+			<td>Edit</td>
+			<td>Delete</td>
+		</tr>
+		
+	</tbody>
+	<!-- cant apply bootsrap styles for tfoot elements
+	 <tfoot>
+		<tr>
+			<td>3</td>
+			<td>John</td>
+			<td>Phillips</td>
+			<td>22</td>
+		</tr>
+	</tfoot> -->
+	</table>
+</div>
+<!-- </center> -->
+</body>
+</html>
