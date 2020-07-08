@@ -389,5 +389,4 @@ else { console.log("Clicked on cancel"); }
     ______
     Output: 30
 ```
-=======
->>>>>>> 48912ac88ac6e89370bab4d2f1502a6d6baa2ad3
+
