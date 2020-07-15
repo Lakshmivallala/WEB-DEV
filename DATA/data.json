@@ -1,0 +1,24 @@
+{
+	"profiles":[
+		{
+			"profileinfo":{
+				"name":"Alijah Allaa",
+				"role":"Not a dev",
+				"email":"avs@gmail.com",
+				"mobile":"+9183293923",
+				"address":"AP"
+			}
+		},
+		{
+		"profileinfo":{
+			"name":"Alijah Allaa",
+			"role":"Not a dev",
+			"email":"avs@gmail.com",
+			"mobile":"+9183293923",
+			"address":"AP"
+		}
+
+
+	}
+]
+}

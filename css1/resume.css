@@ -72,6 +72,14 @@
 }
 
 
+.education h1:hover{
+	color:purple;
+	text-align: center;
+	background-color: #273746;
+
+}
+
+
 .edducation ul li .date {
   font-size: 16px;
   font-weight: 500;
