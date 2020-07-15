@@ -106,6 +106,15 @@ git push origin master : This command is used to push the changes to github repo
 
 Important note if we want to push the changes again(?second time) we have to fetch and pull
 
+
+git status : Shows the details of the modified files.
+git add <filename | .> : Add the file / files that you want to push to GitHub.
+git commit -m"<message>" : Add a message for the commit.
+git push : Push the commit to GitHub
+         
+         
+         
+
 git fetch origin : This command is used to fetch the changes to remote.(Here the default remote name is origin)
 
 git pull origin master : This command is used to pull the repository in Github.
